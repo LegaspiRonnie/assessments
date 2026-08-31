@@ -268,30 +268,73 @@
 
 
 
-$text = "swiss";
+// $text = "swwiiss";
 
-$found = false;
+// $found = false;
 
-for ($i = 0; $i < strlen($text); $i++) {
+// for ($i = 0; $i < strlen($text); $i++) {
 
-    $count = 0;
+//     $count = 0;
 
-    for ($j = 0; $j < strlen($text); $j++) {
+//     for ($j = 0; $j < strlen($text); $j++) {
 
-        if ($text[$i] == $text[$j]) {
-            $count++;
-        }
+//         if ($text[$i] == $text[$j]) {
+//             $count++;
+//         }
 
-    }
+//     }
 
-    if ($count == 1) {
-        echo $text[$i];
-        $found = true;
-        break;
-    }
-}
+//     if ($count == 1) {
+//         echo $text[$i];
+//         $found = true;
+//         break;
+//     }
+// }
 
-if (!$found) {
-    echo "No non-repeating character";
-}
+// if (!$found) {
+//     echo "No non-repeating character";
+// }
+ 
+// $text = "swiiss";
 
+// $tl    = strlen($text);
+// $found = false;
+
+// for ( $i = 0; $i < $tl; $i++ ) {
+
+//     $count = 0;
+
+//     for ( $j = 0; $j < $tl; $j++ ) {
+
+//         if ( $text[$i] == $text[$j] ) {
+//             $count++;
+//         }
+
+//     }
+
+//     if ( $count == 1 ) {
+//         echo $text[$i];
+//         $found = true;
+//         break;
+//     }
+
+    
+// }
+
+// if(!$found) {
+//     echo "No repeating number";
+// }
+
+
+// $text1 = "listen";
+// $text2 = "silents";
+
+// $t1 = strlen($text1);
+// $t2 = strlen($text2);
+
+// if ($t1 != $t2) {
+//     echo "Not anagram ";
+//     exit;
+// }
+
+// for ( $i = 0; $i < )
